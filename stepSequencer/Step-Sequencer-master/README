@@ -1,0 +1,1 @@
+This is an early prototype of the Syzygryd Step Sequencer code used on the Syzygryd project (http://www.syzygryd.com). The code is written in JUCE and demonstrates a very simple step sequencer that synchronizes to a VST host.

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="O5EuD0" name="NewProject" projectType="guiapp" version="1.0.0"
+              bundleIdentifier="com.yourcompany.NewProject" includeBinaryInAppConfig="1"
+              jucerVersion="3.1.0">
+  <MAINGROUP id="rHxlCN" name="NewProject">
+    <GROUP id="{88FCAFA7-559E-6B71-7E35-9FD4DFF1481B}" name="Source">
+      <GROUP id="{549E0BCB-3356-4C57-1D4C-A525FEAB5980}" name="Components">
+        <FILE id="V5zyeS" name="CellComponent.cpp" compile="1" resource="0"
+              file="Source/Components/CellComponent.cpp"/>
+        <FILE id="zNLfUe" name="CellComponent.h" compile="0" resource="0" file="Source/Components/CellComponent.h"/>
+        <FILE id="KxhUa5" name="MainComponent.cpp" compile="1" resource="0"
+              file="Source/Components/MainComponent.cpp"/>
+        <FILE id="nWppYD" name="MainComponent.h" compile="0" resource="0" file="Source/Components/MainComponent.h"/>
+        <FILE id="Ludycs" name="MyTableListBox.cpp" compile="1" resource="0"
+              file="Source/Components/MyTableListBox.cpp"/>
+        <FILE id="aaxaB7" name="MyTableListBox.h" compile="0" resource="0"
+              file="Source/Components/MyTableListBox.h"/>
+        <FILE id="sFgYX7" name="PluginAudioProcessorEditor.cpp" compile="1"
+              resource="0" file="Source/Components/PluginAudioProcessorEditor.cpp"/>
+        <FILE id="pUH45h" name="PluginAudioProcessorEditor.h" compile="0" resource="0"
+              file="Source/Components/PluginAudioProcessorEditor.h"/>
+        <FILE id="jsZ5WC" name="SequencerComponent-old.cpp" compile="1" resource="0"
+              file="Source/Components/SequencerComponent-old.cpp"/>
+        <FILE id="WJfWXV" name="SequencerComponent-old.h" compile="0" resource="0"
+              file="Source/Components/SequencerComponent-old.h"/>
+        <FILE id="aISkiP" name="SequencerComponent.cpp" compile="1" resource="0"
+              file="Source/Components/SequencerComponent.cpp"/>
+        <FILE id="zecRGa" name="SequencerComponent.h" compile="0" resource="0"
+              file="Source/Components/SequencerComponent.h"/>
+        <FILE id="x0VWtb" name="StandaloneComponent.cpp" compile="1" resource="0"
+              file="Source/Components/StandaloneComponent.cpp"/>
+        <FILE id="tgW7jO" name="StandaloneComponent.h" compile="0" resource="0"
+              file="Source/Components/StandaloneComponent.h"/>
+        <FILE id="Snc7lb" name="TransportComponent.cpp" compile="1" resource="0"
+              file="Source/Components/TransportComponent.cpp"/>
+        <FILE id="FMPFdv" name="TransportComponent.h" compile="0" resource="0"
+              file="Source/Components/TransportComponent.h"/>
+      </GROUP>
+      <GROUP id="{E905DEE2-FEDA-800C-D8F3-BCDCCBF5FE67}" name="Models">
+        <FILE id="b3rvt3" name="AudioProcessorCallback.cpp" compile="1" resource="0"
+              file="Source/Models/AudioProcessorCallback.cpp"/>
+        <FILE id="tYwbaY" name="AudioProcessorCallback.h" compile="0" resource="0"
+              file="Source/Models/AudioProcessorCallback.h"/>
+        <FILE id="Yfwwis" name="Cell.cpp" compile="1" resource="0" file="Source/Models/Cell.cpp"/>
+        <FILE id="cspKja" name="Cell.h" compile="0" resource="0" file="Source/Models/Cell.h"/>
+        <FILE id="te6a44" name="CustomPlayHead.cpp" compile="1" resource="0"
+              file="Source/Models/CustomPlayHead.cpp"/>
+        <FILE id="qgkmVl" name="CustomPlayHead.h" compile="0" resource="0"
+              file="Source/Models/CustomPlayHead.h"/>
+        <FILE id="P0WrWN" name="PluginAudioProcessor.cpp" compile="1" resource="0"
+              file="Source/Models/PluginAudioProcessor.cpp"/>
+        <FILE id="UlsK9C" name="PluginAudioProcessor.h" compile="0" resource="0"
+              file="Source/Models/PluginAudioProcessor.h"/>
+        <FILE id="qXINpr" name="Sequencer.cpp" compile="1" resource="0" file="Source/Models/Sequencer.cpp"/>
+        <FILE id="dA1cMq" name="Sequencer.h" compile="0" resource="0" file="Source/Models/Sequencer.h"/>
+      </GROUP>
+      <GROUP id="{692CBC84-8751-5A21-BA41-47D7AD89E04B}" name="Standalone Wrapper">
+        <FILE id="BF0Hob" name="juce_AudioFilterStreamer.cpp" compile="1" resource="0"
+              file="Source/Standalone Wrapper/juce_AudioFilterStreamer.cpp"/>
+        <FILE id="VuBZav" name="juce_AudioFilterStreamer.h" compile="0" resource="0"
+              file="Source/Standalone Wrapper/juce_AudioFilterStreamer.h"/>
+        <FILE id="pNKqdk" name="juce_StandaloneFilterWindow.cpp" compile="1"
+              resource="0" file="Source/Standalone Wrapper/juce_StandaloneFilterWindow.cpp"/>
+        <FILE id="EpEJX7" name="juce_StandaloneFilterWindow.h" compile="0"
+              resource="0" file="Source/Standalone Wrapper/juce_StandaloneFilterWindow.h"/>
+      </GROUP>
+      <GROUP id="{0FE308A9-850B-C5AF-3DF6-C173BB092B0B}" name="Startup">
+        <FILE id="ZjRtxy" name="JuceApp.cpp" compile="1" resource="0" file="Source/Startup/JuceApp.cpp"/>
+        <FILE id="nZSxf7" name="JuceApp.h" compile="0" resource="0" file="Source/Startup/JuceApp.h"/>
+        <FILE id="v0YYEI" name="JuceHeader.h" compile="0" resource="0" file="Source/Startup/JuceHeader.h"/>
+        <FILE id="vt0Tee" name="JucePluginCharacteristics.h" compile="0" resource="0"
+              file="Source/Startup/JucePluginCharacteristics.h"/>
+        <FILE id="Bs8sAu" name="Main.cpp" compile="1" resource="0" file="Source/Startup/Main.cpp"/>
+      </GROUP>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <LINUX_MAKE targetFolder="Builds/Linux">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" libraryPath="/usr/X11R6/lib/" isDebug="1" optimisation="1"
+                       targetName="NewProject"/>
+        <CONFIGURATION name="Release" libraryPath="/usr/X11R6/lib/" isDebug="0" optimisation="2"
+                       targetName="NewProject"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../juce/modules"/>
+        <MODULEPATH id="juce_events" path="../../juce/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../juce/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../juce/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../juce/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../juce/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../juce/modules"/>
+        <MODULEPATH id="juce_video" path="../../juce/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../juce/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../juce/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../juce/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../juce/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../juce/modules"/>
+      </MODULEPATHS>
+    </LINUX_MAKE>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULES id="juce_audio_basics" showAllCode="1" useLocalCopy="1"/>
+    <MODULES id="juce_audio_devices" showAllCode="1" useLocalCopy="1"/>
+    <MODULES id="juce_audio_formats" showAllCode="1" useLocalCopy="1"/>
+    <MODULES id="juce_audio_processors" showAllCode="1" useLocalCopy="1"/>
+    <MODULES id="juce_core" showAllCode="1" useLocalCopy="1"/>
+    <MODULES id="juce_cryptography" showAllCode="1" useLocalCopy="1"/>
+    <MODULES id="juce_data_structures" showAllCode="1" useLocalCopy="1"/>
+    <MODULES id="juce_events" showAllCode="1" useLocalCopy="1"/>
+    <MODULES id="juce_graphics" showAllCode="1" useLocalCopy="1"/>
+    <MODULES id="juce_gui_basics" showAllCode="1" useLocalCopy="1"/>
+    <MODULES id="juce_gui_extra" showAllCode="1" useLocalCopy="1"/>
+    <MODULES id="juce_opengl" showAllCode="1" useLocalCopy="1"/>
+    <MODULES id="juce_video" showAllCode="1" useLocalCopy="1"/>
+  </MODULES>
+  <JUCEOPTIONS/>
+</JUCERPROJECT>
